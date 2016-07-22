@@ -1,0 +1,59 @@
+Graph representation:
+Just a very basic idea (knowing that these implementations are dead wrong: the idea of implementations is to hide the details to the users. I am not coding the basic methods here. This is just for, say, reference).
+
+Objects and pointers:
+
+class Vertex {
+	int value;
+}
+
+class Edge {
+	Vertex v1,v2;
+}
+
+class GraphObjectsAndPointers {
+	java.util.arrayList < Vertex> vertices = new java.util.ArrayList < Vertex >;
+
+	java.util.arrayList < Vertex> edges = new java.util.ArrayList < Edge >;
+
+	public static void main ( String [] args ){
+		Graph G = new Graph ();
+		Vertex v1 = new Vertex ();
+		Vertex v2 = new Vertex ();
+		
+		Edge e1 = new Edge ();
+		e1.v1=v1;
+		e1.v2=v2;
+	}
+}
+
+
+class GraphMatrix {
+	int [][] matrix;
+	public static void main ( String [] args ){
+		GraphMatrix g = new GraphMatrix ();
+		GraphMatrix.matrix = new int [2][2];
+		//Obviously this (and everything else) should be implemented in a better way.
+		GraphMatrix.matrix [0][1] = 1;
+		GraphMatrix.matrix [1][0] = -1;
+	}
+
+}
+
+class graphAdjacencyList {
+	java.util.HashMap <Vertex, java.util.ArrayList <Vertex>> list;
+
+	public static void main ( String [] args ) {
+		graphAdjacencyList graph = new GraphAdjacencyList ();
+		Vertex v1 = new Vertex (4);
+		Vertex v2 = new Vertex ( 7 );
+		//Again, I am showing this value, but in a right implementation, this is not shown to the user.
+		graph.list = new java.util.HashMap <Vertex, java.util.ArrayList <Vertex>> list ();
+		java.util.ArrayList <Vertex> v1Destinations = new java.util.ArrayList < Vertex () >;
+
+		v1Destinations.add (v2);
+		list.set (V1,v1Destinations);
+	}
+ 
+	
+
