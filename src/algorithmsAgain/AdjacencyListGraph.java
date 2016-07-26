@@ -18,7 +18,7 @@ public class AdjacencyListGraph implements Graph {
 	public void removeVertex ( int value ){
 		// First, remove the entry in the map.
 		map.remove ( value );
-		//Now, we’ll have to look for the key in all the lists, and remove it.
+		//Now, weï¿½ll have to look for the key in all the lists, and remove it.
 		java.util.Iterator < java.util.Map.Entry <Integer, java.util.ArrayList < Integer> > > it = map.entrySet().iterator();
 		while (it.hasNext ()){
 			java.util.Map.Entry  <Integer, java.util.ArrayList < Integer> > pair = it.next();
