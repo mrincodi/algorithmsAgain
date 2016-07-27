@@ -13,10 +13,9 @@ public class RemoveDuplicatesFromSortedArray {
 
 			int v1 = a.get(i);
 			int v2 = a.get(j);
-				            System.out.println ( "i = " + i + " j = " + j + 
-				            " a.get(i)= " + a.get(i) + " a.get(j)= " + a.get(j));
-			//if (v1 != v2){
-			if (a.get(i) != a.get(j)){
+//				            System.out.println ( "i = " + i + " j = " + j + 
+//				            " a.get(i)= " + a.get(i) + " a.get(j)= " + a.get(j));
+			if (v1 != v2){
 				
 				//System.out.println ( "Diferentes!" );
 				a.set(i+1,v2);
@@ -39,19 +38,12 @@ public class RemoveDuplicatesFromSortedArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		ArrayList <Integer> a = new ArrayList  <Integer> ( Arrays.asList(5000,5000,5000,5000));
-//		if ( a.get(0) != a.get(1)) System.out.println("What???");
-//		
-//		int q = new RemoveDuplicatesFromSortedArray().removeDuplicates(a);
-//		
-//		System.out.println(q);
-//		
-//		
+		ArrayList <Integer> a = new ArrayList  <Integer> ( Arrays.asList(5000,5000,5000,5000));
 		
-		Integer qq = 5;
-		Integer rr = 5;
+		int q = new RemoveDuplicatesFromSortedArray().removeDuplicates(a);
 		
-		if ( qq != rr ) System.out.println("Wut???");
+		System.out.println(q);
+
 
 	}
 
