@@ -32,7 +32,7 @@ public class CloneGraph {
 	 */
 	HashMap <UndirectedGraphNode, UndirectedGraphNode> createdNodes = new HashMap <UndirectedGraphNode, UndirectedGraphNode> ();
 
-	public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+	public synchronized UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
 
 		if (node == null ) return null;
 

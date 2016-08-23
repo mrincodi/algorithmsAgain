@@ -1,5 +1,7 @@
 package other;
 
+import java.util.Map;
+
 public class HashMapAndItsIlk {
 
 	public static void main(String[] args) {
@@ -14,6 +16,9 @@ public class HashMapAndItsIlk {
 		h.put(2, 2);
 		h.put(Integer.MAX_VALUE, 7);
 		
+		Map.Entry<Integer, Integer> entryi = h.firstEntry();
+		
+		System.out.println("--> " + entryi.getKey());
 		for ( java.util.Map.Entry<Integer, Integer > entry : h.entrySet() ){
 			System.out.println(entry.getKey() + "->" + entry.getValue());
 		}
