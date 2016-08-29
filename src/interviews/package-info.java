@@ -5,4 +5,4 @@
  * @author mrincodi
  *
  */
-package googleInterview;
+package interviews;
