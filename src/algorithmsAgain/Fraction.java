@@ -128,8 +128,11 @@ public class Fraction {
 		}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int numerator = 7;
+		int denominator=9;
+		String result = new Fraction().fractionToDecimal(numerator, denominator);
+		System.out.println(result);
+	
 	}
 
 }

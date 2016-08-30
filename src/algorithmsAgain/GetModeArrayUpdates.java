@@ -45,7 +45,7 @@ Constraints
  * 2016-08-29
  * Comment: Worked but took too long for InterviewBit.
  */
-public class GetModeArrayupdates {
+public class GetModeArrayUpdates {
 
 	public ArrayList<Integer> getMode(ArrayList<Integer> a, ArrayList<ArrayList<Integer>> b) {
 		ArrayList<Integer> result = new ArrayList<Integer> ();
@@ -105,7 +105,7 @@ public class GetModeArrayupdates {
 		ArrayList <ArrayList <Integer>> b = new ArrayList <ArrayList <Integer>> ();
 		b.add(new ArrayList<Integer> ( Arrays.asList(1,1)));
 		
-		ArrayList <Integer> res = new GetModeArrayupdates().getMode(a, b);
+		ArrayList <Integer> res = new GetModeArrayUpdates().getMode(a, b);
 		
 		for ( int v : res){
 			System.out.println(v);
