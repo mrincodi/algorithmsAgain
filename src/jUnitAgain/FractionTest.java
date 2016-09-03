@@ -29,11 +29,11 @@ public class FractionTest {
 		
 	}
 	
-	@org.junit.Test
-	public void thisIsAnError(){
-		org.junit.Assert.assertEquals("Something terrible happened!!","-5", new Fraction().fractionToDecimal(-4, 2));
-		
-	}
+//	@org.junit.Test
+//	public void thisIsAnError(){
+//		org.junit.Assert.assertEquals("Something terrible happened!!","-5", new Fraction().fractionToDecimal(-4, 2));
+//		
+//	}
 	
 	
 	
