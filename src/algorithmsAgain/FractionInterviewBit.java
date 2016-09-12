@@ -18,7 +18,7 @@ Given numerator = 2, denominator = 3, return "0.(6)"
  * Comments: A beautiful problem. Hash usage is not obvious.
  * My solution works fine, but is a little verbose.
  * This InterviewBit solution is concise, simple and worth of a look.
- * Look ponly into where to put the parenthesis (genius!)
+ * It looks only into where to put the parenthesis (genius!)
  * Date: 2016-08-05.
  */
 public class FractionInterviewBit {
