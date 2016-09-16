@@ -7,7 +7,7 @@ public class EnumPlay {
 
 		Empanadas e = Empanadas.POLLO;
 		
-		int sabrosura = e.quéTanRica();
+		int sabrosura = e.queTanRica();
 		
 		System.out.println (sabrosura);
 		
