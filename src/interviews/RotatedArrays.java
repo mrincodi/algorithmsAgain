@@ -6,8 +6,7 @@ public class RotatedArrays {
 		if ( array.length == 0 ) throw new Exception ("Number is not in the array" );
 		return findPosition (array, value, 0, array.length - 1);
 	}
-	
-	
+
 	public int findPosition ( int [] array, int value, int start, int end ) throws Exception{
 		if ( start == end ){
 			if ( array [ start ] == value ) return start;
