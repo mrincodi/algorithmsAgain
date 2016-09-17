@@ -1,4 +1,4 @@
-package seraThreads;
+package threads;
 
 public class ThreadTestMain {
 

@@ -65,7 +65,7 @@ public class Subset {
 	public static void main(String[] args) {
 
 		ArrayList<Integer> a = new ArrayList<Integer> ();
-		a.addAll(Arrays.asList(1, 2));
+		a.addAll(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 
 
 		ArrayList<ArrayList<Integer>> ss = new Subset().subsets(a);

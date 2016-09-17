@@ -43,9 +43,17 @@ public class GoogleInterview {
 		n.left = new Node ( 9);
 		n.right = new Node ( 12);
 
+		n.left.left = new Node ( 15);
+		n.left.right = new Node ( 18);
+		n.right.right = new Node ( 24);
+		n.left.left.left = new Node  (40 );
+		n.right.right.left = new Node ( 49);
+		
 		new GoogleInterview().setNextInLevels(n);
+		
 		System.out.println("");
 
+		n.printLevels();
 	}
 
 }

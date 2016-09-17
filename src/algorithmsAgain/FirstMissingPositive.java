@@ -39,6 +39,13 @@ If using extra space was an option, creating buckets would have been an easy sol
 Creating an array of size N initialized to 0, for every value A[i] which lies in the range [1, N], we would have incremented its count in the array. Consequently, we would traverse the array to find the first array position with value 0, hence finding our answer.
 
 However, since we are not allowed buckets, can we use the existing array as bucket somehow?
+
+Author: mrincodi
+
+Date of this problem unknown (2016-08?-??)
+
+Comment: A beautiful problem. All a headscratcher because of the constraint in complexity 
+in time and space.
  */
 import java.util.ArrayList;
 

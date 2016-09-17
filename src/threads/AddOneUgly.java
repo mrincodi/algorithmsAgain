@@ -1,4 +1,4 @@
-package seraThreads;
+package threads;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

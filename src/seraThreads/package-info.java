@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author Mario
- *
- */
-package seraThreads;
