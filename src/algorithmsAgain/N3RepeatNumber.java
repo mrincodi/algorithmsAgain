@@ -21,7 +21,7 @@ Output : 1
  * @author mrincodi
  * 2016-09-17
  * Comment: Works, but there is no escape (or I don't see it) to having the possible last 2 elements
- * searched for in the array.
+ * counted for in the array.
  * To understand the mechanism, see 
  * http://www.geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
  */
