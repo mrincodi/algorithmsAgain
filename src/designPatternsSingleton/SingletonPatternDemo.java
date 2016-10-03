@@ -1,4 +1,4 @@
-package designPatterns;
+package designPatternsSingleton;
 
 public class SingletonPatternDemo {
 

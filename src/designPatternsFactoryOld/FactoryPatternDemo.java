@@ -1,4 +1,4 @@
-package designPatternsFactory;
+package designPatternsFactoryOld;
 
 /**
  * I don't see why

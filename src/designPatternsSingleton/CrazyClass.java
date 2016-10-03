@@ -1,4 +1,4 @@
-package designPatterns;
+package designPatternsSingleton;
 
 /**
  * Stack overflow! :)
@@ -13,6 +13,7 @@ public class CrazyClass {
 		c = new CrazyClass ();
 	}
 	public static void main(String[] args) {
+		CrazyClass c = new CrazyClass();
 	}
 
 }

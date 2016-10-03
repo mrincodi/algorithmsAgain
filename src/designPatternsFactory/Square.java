@@ -2,9 +2,16 @@ package designPatternsFactory;
 
 public class Square implements Shape {
 
-	@Override
-	public void draw() {
-		System.out.println("Drawing a square.");
+	private int side =0;
+
+	public Square ( int side){
+		this.side=side;
 	}
+
+	@Override
+	public int getArea() {
+		return this.side*this.side;
+	}
+
 
 }

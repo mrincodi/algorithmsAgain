@@ -1,22 +1,16 @@
 package designPatternsFactory;
 
-public abstract class ShapeFactory {
+public class ShapeFactory {
 
-	/**
-	 * Comment: I don't see why this method cannot be static...
-	 * and why can't be the whole class abstract, for that matter.
-	 * @param shape
-	 * @return
-	 */
-	public static Shape getShape (String shape){
-		if ( shape == "CIRCLE")
-			return new Circle();
-		else if ( shape == "SQUARE")
-			return new Square();
-		
+	public Shape getShape (ShapesEnum shapeType, int side){
+		switch (shapeType){
+		case EQUILATERAL:
+			return new EquilateralTriangle(side);
+		case SQUARE:
+			return new Square(side);
+		default:
+			break;
+		}
 		return null;
 	}
-	
-	//public abstract int tt ();
-	
 }
