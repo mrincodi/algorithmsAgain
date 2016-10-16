@@ -1,7 +1,5 @@
 package interviews;
 
-import java.util.HashMap;
-
 /**
  * Given a non-negative number called "sum" and a number "partitions", 
  * in how many ways could I partition "partitions" non-negative numbers so their sum 
@@ -41,7 +39,7 @@ public class GooglePartitions3 {
 	
 	public static void main(String[] args) {
 
-		int sum = 10;
+		int sum = 100;
 		int n = 10;
 		long num = new GooglePartitions3().getNumberOfPartitions(sum, n);
 		System.out.println(num);

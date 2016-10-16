@@ -36,7 +36,7 @@ public class GooglePartitions2 {
 	public static void main(String[] args) {
 
 		int sum = 100;
-		int n = 10;
+		int n = 15;
 		long num = new GooglePartitions2().getNumberOfPartitions(sum, n);
 		System.out.println(num);
 	}
