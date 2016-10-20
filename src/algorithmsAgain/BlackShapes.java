@@ -3,6 +3,37 @@ package algorithmsAgain;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * Given N * M field of O's and X's, where O=white, X=black
+Return the number of black shapes. A black shape consists of one or more adjacent X's (diagonals not included)
+
+Example:
+
+OOOXOOO
+OOXXOXO
+OXOOOXO
+
+answer is 3 shapes are  :
+(i)    X
+     X X
+(ii)
+      X
+ (iii)
+      X
+      X
+Note that we are looking for connected shapes here.
+
+For example,
+
+XXX
+XXX
+XXX
+is just one single connected black shape.
+
+ * @author mrincodi
+ * Date: ??
+ * Comment:
+ */
 public class BlackShapes {
 
 	public int black(ArrayList<String> a) {

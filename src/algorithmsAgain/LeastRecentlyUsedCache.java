@@ -47,7 +47,7 @@ Input :
  * (like LinkedHashMap). In the end, I made it by hand.
  * InterviewBit also did it by hand. 
  */
-public class LRUCache {
+public class LeastRecentlyUsedCache {
 
 	int capacity;
 	int usage;
@@ -55,7 +55,7 @@ public class LRUCache {
 	LinkedListNode end;
 	HashMap <Integer, LinkedListNode> h;
 
-	public LRUCache(int capacity) {
+	public LeastRecentlyUsedCache(int capacity) {
 		this.capacity=capacity;
 		this.usage=0;
 		this.start =null;
@@ -221,7 +221,7 @@ The expected returned value :
 -1 -1 -1 -1 -1 3 -1 8 -1 7 7 -1 2 -1 8 7 2 7 -1 -1 12 -1 12 6 -1 -1 
 		 */
 
-		LRUCache s = new LRUCache (7);
+		LeastRecentlyUsedCache s = new LeastRecentlyUsedCache (7);
 
 		//		s.set(4, 7);
 		//		s.set(4,5);

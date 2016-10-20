@@ -98,7 +98,7 @@ public class CaptureRegionsOnBoard {
 		}
 	}
 
-	private char getChar (ArrayList<ArrayList<Character>> a, int x, int y){
+	public char getChar (ArrayList<ArrayList<Character>> a, int x, int y){
 		return (a.get(x).get(y));
 	}
 
