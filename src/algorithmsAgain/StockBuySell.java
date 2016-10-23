@@ -21,15 +21,17 @@ If we are allowed to buy and sell only once, then we can use following algorithm
 CJava
 
  * @author Mayank Jaiswal (mrincodi: I just copied-pastecx this.)
- *
+ * Comment: mrincodi: I changed it just to make the Interval class an inner class of StockBuySell.
+ * (I am using a different Interval class elsewhere.
  */
-class Interval 
-{
- int buy, sell;
-}
+
 
 class StockBuySell 
 {
+	class Interval 
+	{
+	 int buy, sell;
+	}
  // This function finds the buy sell schedule for maximum profit
  void stockBuySell(int price[], int n) 
  {

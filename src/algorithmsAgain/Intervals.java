@@ -29,12 +29,12 @@ HINT: Note that if max(a,c) > min(b,d), then the intervals do not overlap. Other
  */
 public class Intervals {
 
-	class Interval {
-		int start;
-		int end;
-		Interval() { start = 0; end = 0; }
-		Interval(int s, int e) { start = s; end = e; }
-	}
+//	class Interval {
+//		int start;
+//		int end;
+//		Interval() { start = 0; end = 0; }
+//		Interval(int s, int e) { start = s; end = e; }
+//	}
 
 	/**
 	 * Definition for an interval.
