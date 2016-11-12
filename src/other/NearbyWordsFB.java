@@ -14,6 +14,12 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 
+/**
+ * A complete solution for the "How to Crush Your Coding Interview" problem, in Java.
+ * See https://goo.gl/lTzZKc.
+ * @author Mario R. Rincon (mrincodi), mrincodi@gmail.com
+ *
+ */
 public class NearbyWordsFB {
 	String DICT_FILE = "dictionary.txt";
 
@@ -30,7 +36,7 @@ public class NearbyWordsFB {
 			FileOutputStream fos = new FileOutputStream("dictionary.txt");
 			fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
 			fos.close();
-		}
+		} 
 
 		//Fill up the dictionary HashSet.
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
