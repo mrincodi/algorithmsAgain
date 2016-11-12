@@ -20,7 +20,7 @@ import java.util.HashMap;
  * Pseudo-demonstration:
  * http://www.math.ucsd.edu/~gptesler/184a/slides/184a_ch5slides_14-handout.pdf
  */
-public class GooglePartitions5 {
+public class GPartitions5 {
 
 	
 	long getNumberOfPartitions (int sum, int part){
@@ -43,7 +43,7 @@ public class GooglePartitions5 {
 
 		int sum = 100;
 		int n = 10;
-		long num = new GooglePartitions5().getNumberOfPartitions(sum, n);
+		long num = new GPartitions5().getNumberOfPartitions(sum, n);
 		System.out.println(num);
 	}
 

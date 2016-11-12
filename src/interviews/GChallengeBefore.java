@@ -22,7 +22,7 @@ class SorterBySize implements Comparator <String> {
 
 
 
-public class GoogleChallengeBefore {
+public class GChallengeBefore {
 
 
 	ArrayList < String > findWords ( ArrayList <String> words, ArrayList <Character> letters){
@@ -147,8 +147,8 @@ public class GoogleChallengeBefore {
 				"el", 
 		"i"));
 		
-		ArrayList <String> wordies = new GoogleChallengeBefore().findWords(dictionary, chars);
-//		ArrayList <String> wordies2 = new GoogleChallengeBefore().getLongestWords(wordies);
+		ArrayList <String> wordies = new GChallengeBefore().findWords(dictionary, chars);
+//		ArrayList <String> wordies2 = new GChallengeBefore().getLongestWords(wordies);
 		
 		for ( String word: wordies){
 			System.out.println(word);

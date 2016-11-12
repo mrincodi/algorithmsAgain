@@ -1,6 +1,6 @@
 package interviews;
 
-public class GoogleInterviewBFS {
+public class GInterviewBFS {
 
 	
 	void setNextInLevels ( Node root ){
@@ -40,7 +40,7 @@ public class GoogleInterviewBFS {
 		n.left.left.left = new Node  (40 );
 		n.right.right.left = new Node ( 49);
 
-		new GoogleInterviewBFS().setNextInLevels(n);
+		new GInterviewBFS().setNextInLevels(n);
 		
 		System.out.println("");
 

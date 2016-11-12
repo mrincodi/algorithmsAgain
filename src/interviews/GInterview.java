@@ -3,7 +3,7 @@ package interviews;
 import java.util.ArrayList;
 
 
-public class GoogleInterview {
+public class GInterview {
 
 
 	void setNextInLevels ( Node root ){
@@ -49,7 +49,7 @@ public class GoogleInterview {
 		n.left.left.left = new Node  (40 );
 		n.right.right.left = new Node ( 49);
 		
-		new GoogleInterview().setNextInLevels(n);
+		new GInterview().setNextInLevels(n);
 		
 		System.out.println("");
 

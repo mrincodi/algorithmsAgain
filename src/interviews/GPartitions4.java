@@ -13,7 +13,7 @@ import java.util.Arrays;
  * Comment: Duh! A single array does the work! Amazing!!
  * 
  */
-public class GooglePartitions4 {
+public class GPartitions4 {
 
 	public long getNumberOfPartitions (int n, int p){
 		if ( n < 1 || p < 1 ) return 0;
@@ -34,7 +34,7 @@ public class GooglePartitions4 {
 	public static void main(String[] args) {
 		int sum = 100;
 		int n = 10;
-		long num = new GooglePartitions4().getNumberOfPartitions(sum, n);
+		long num = new GPartitions4().getNumberOfPartitions(sum, n);
 		System.out.println(num);
 	}
 

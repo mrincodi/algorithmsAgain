@@ -10,7 +10,7 @@ package interviews;
  * 2016-09-27
  * Comment: The "brute-force" (recursive) approach.
  */
-public class GooglePartitions1 {
+public class GPartitions1 {
 
 	Integer getNumberOfPartitions (int sum, int n){
 
@@ -27,7 +27,7 @@ public class GooglePartitions1 {
 
 		int sum = 100;
 		int n = 15;
-		int num = new GooglePartitions1().getNumberOfPartitions(sum, n);
+		int num = new GPartitions1().getNumberOfPartitions(sum, n);
 		System.out.println(num);
 	}
 

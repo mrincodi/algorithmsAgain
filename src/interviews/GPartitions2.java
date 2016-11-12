@@ -12,7 +12,7 @@ import java.util.HashMap;
  * 2016-09-27
  * Comment: The "brute-force" (recursive) approach (greatly) enhanced with a HashMap.
  */
-public class GooglePartitions2 {
+public class GPartitions2 {
 
 	HashMap <String, Long> previousPartitions = new HashMap <String, Long>();
 	long getNumberOfPartitions (int sum, int n){
@@ -37,7 +37,7 @@ public class GooglePartitions2 {
 
 		int sum = 100;
 		int n = 15;
-		long num = new GooglePartitions2().getNumberOfPartitions(sum, n);
+		long num = new GPartitions2().getNumberOfPartitions(sum, n);
 		System.out.println(num);
 	}
 

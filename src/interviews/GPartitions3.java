@@ -12,7 +12,7 @@ package interviews;
  * m (p, s) = SUM (i: from 0 to s) of (m(p-1,i)).
  * 
  */
-public class GooglePartitions3 {
+public class GPartitions3 {
 
 	
 	long getNumberOfPartitions (int sum, int part){
@@ -41,7 +41,7 @@ public class GooglePartitions3 {
 
 		int sum = 100;
 		int n = 10;
-		long num = new GooglePartitions3().getNumberOfPartitions(sum, n);
+		long num = new GPartitions3().getNumberOfPartitions(sum, n);
 		System.out.println(num);
 	}
 
