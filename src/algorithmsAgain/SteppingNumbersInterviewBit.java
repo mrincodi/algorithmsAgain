@@ -22,7 +22,7 @@ Return the numbers in sorted order.
  * Comment: Well, this is InterviewBit's solution. Kind of brute force-ish; nothing to
  * do with graphs.
  */
-public class StepingNumbers {
+public class SteppingNumbersInterviewBit {
 	
 	public ArrayList<Integer> stepnum(int A, int B) {
 	    int i;

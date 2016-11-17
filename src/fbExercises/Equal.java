@@ -20,7 +20,7 @@ Note:
    then return the tuple of values which are lexicographical smallest. 
 
 Assume we have two solutions
-S1 : A1 B1 C1 D1 ( these are values of indices int the array )  
+S1 : A1 B1 C1 D1 ( these are values of indices in the array )  
 S2 : A2 B2 C2 D2
 
 S1 is lexicographically smaller than S2 iff

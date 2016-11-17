@@ -30,13 +30,11 @@ All words have the same length.
 All words contain only lowercase alphabetic characters.
  * @author mrincodi
  * 2016-09-11
- * Comment: With graphs and BFS! Very interesting use of a "-1" value to differentiate between levels.
- * If I couldn't use that value for whatever reason, I think this could have been managed
- * with a HashMap: value -> level it belongs in the BFS. We wouldn't need the "already" array if we used
- * a hashmap this way.
+ * Comment: With graphs and BFS! Very interesting use of indexes in the dictionary for
+ * values of the graph nodes, plus a "-1" value to differentiate between levels.
  *
  */
-public class WordLadderIWithGraphs {
+public class WordLadderI3 {
 
 	public int ladderLength(String start, String end, ArrayList<String> dictV) {
 
@@ -110,7 +108,7 @@ public class WordLadderIWithGraphs {
 		start = "aabbbaabaabaaabbbbbbabbbbaaabababbbbbbaababaaa";
 		end =   "abaabaaababbbabbbbaaaabaaababaabbababbbaabbbba";
 		
-		int n = new WordLadderIWithGraphs().ladderLength(start, end, dictV);
+		int n = new WordLadderI3().ladderLength(start, end, dictV);
 		System.out.println(n);
 	}
 
