@@ -2,7 +2,7 @@ package other;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import algorithmsAgain.CaptureRegionsOnBoard;
+import interviewBit.CaptureRegionsOnBoard;
 
 /**
  * This is just algorithmsAgain.CaptureRegionsOnBoard, again, for practicing. Dismiss.

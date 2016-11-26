@@ -1,6 +1,6 @@
 package jUnitAgain;
 
-import algorithmsAgain.Fraction;
+import interviewBit.Fraction;
 
 public class FractionTest {
 

@@ -3,7 +3,7 @@ package other;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-import algorithmsAgain.TreeNode;
+import interviewBit.TreeNode;
 
 public class LinkedListInTree {
 	
