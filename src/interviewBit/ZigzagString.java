@@ -22,7 +22,7 @@ ABCD, 2 can be written as
 A....C
 ...B....D
 and hence the answer would be ACBD.
- * @author Mario
+ * @author mrincodi
  *
  */
 

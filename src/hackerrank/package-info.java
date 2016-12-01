@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author Mario
+ * @author mrincodi
  *
  */
 package hackerrank;

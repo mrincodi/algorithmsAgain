@@ -15,7 +15,7 @@ Input : 123
 Output : False
 
 2016-07-06
- * @author Mario
+ * @author mrincodi
  *
  */
 public class PalindromeInteger {

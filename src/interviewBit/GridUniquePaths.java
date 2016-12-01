@@ -34,7 +34,7 @@ So we need to find out the number of strings of length m + n - 2 which have exac
 Essentially we need to choose the positions of �1s�, and then �0s� fall into the remaining positions.
 
 So, the answer becomes Choose(m+n-2, n - 1).
- * @author Mario
+ * @author mrincodi
  *
  */
 public class GridUniquePaths {

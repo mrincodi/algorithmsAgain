@@ -14,7 +14,7 @@ Given the below binary tree,
      2   3
 Return 6.
 
- * @author Mario
+ * @author mrincodi
  * 2016-08-012
  * Comment: Beautiful problem! I am only using a global variable for the sum. 
  * InterviewBit's solution creates a whole parallel tree.

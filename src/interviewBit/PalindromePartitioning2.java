@@ -10,7 +10,7 @@ Given
 s = "aab",
 Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 cut.
 
- * @author Mario
+ * @author mrincodi
  * 2016-08-12
  * Comment: Enhancement with respect to PalindromePartitioning, with an array.
  */

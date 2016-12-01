@@ -3,7 +3,7 @@ package hackerrank;
 /**
  * Dismiss.
  * 2016-11-26
- * @author Mario
+ * @author mrincodi
  *
  */
 public class QQ {

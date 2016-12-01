@@ -21,7 +21,7 @@ The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
 Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle. 
 
 
- * @author Mario
+ * @author mrincodi
  * 2016-11-26
  * Comment: OK, so I solved it the right way, and somewhat in linear space, but it would have been more elegant
  * if I were reusing the results array. This can be done if I start from the bottom.

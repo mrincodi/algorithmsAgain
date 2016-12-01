@@ -50,7 +50,7 @@ Returns: { }
 4)
 {534,260,643,230,450,560,430,210}
 Returns: {0, 0, 0, 1, -1, 0, 1, -1 }
- * @author Mario
+ * @author mrincodi
  * 2016-09-12
  * Comment: Good news: works. Bad news: Seems it takes too long for TopCoder.
  *

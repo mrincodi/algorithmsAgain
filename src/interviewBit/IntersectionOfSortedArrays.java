@@ -25,7 +25,7 @@ Output : [3 5]
  assume that elements that appear more than once in both arrays should be included 
  multiple times in the final output. 
  
- * @author Mario
+ * @author mrincodi
  *
  */
 public class IntersectionOfSortedArrays {

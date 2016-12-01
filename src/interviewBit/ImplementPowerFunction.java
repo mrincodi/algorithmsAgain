@@ -12,7 +12,7 @@ In other words, make sure the answer you return is non negative.
 I had to look at the solutions for this one, because I din't know that...
 1) (A * B) mod C = (A mod C * B mod C) mod C
 2) To find −b modN, just keep adding N to −b until the number is between 0 and N.
- * @author Mario
+ * @author mrincodi
  *
  */
 

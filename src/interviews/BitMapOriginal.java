@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 /**
  * 
- * @author Mario Rincon (mrincodi)
+ * @author mrincodi Rincon (mrincodi)
  * 2016-09-13
  */
 class Position {

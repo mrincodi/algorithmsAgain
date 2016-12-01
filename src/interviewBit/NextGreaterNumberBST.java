@@ -29,7 +29,7 @@ PROBLEM APPROACH:
 
 Complete solution in the hint.
 
- * @author Mario
+ * @author mrincodi
  * 2016-10-24
  * Comment: OK, this is not an obvious problem, but it's one of the ones that have to be understood and then "memorized".
  * Doing this with recursion is also interesting. And getting the _previous_ value should be interesting too!

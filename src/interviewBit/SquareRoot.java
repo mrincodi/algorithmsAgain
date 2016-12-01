@@ -15,7 +15,7 @@ Output : 3
 DO NOT USE SQRT FUNCTION FROM STANDARD LIBRARY
 
 2016-07-07, Thursday.
- * @author Mario
+ * @author mrincodi
  *
  */
 public class SquareRoot {
