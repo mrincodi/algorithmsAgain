@@ -23,7 +23,7 @@ Return : "XIV"
  https://projecteuler.net/about=roman_numerals has very detailed explanations. 
  
  
- * @author Mario
+ * @author mrincodi
  *
  */
 public class IntegerToRoman {

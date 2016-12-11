@@ -26,7 +26,7 @@ Output : 5
          With 10 from A, 15 from B and 10 from C. 
          
          
- * @author Mario
+ * @author mrincodi
  * 2016-09-12
  * Comment: I had to think this one a lot. I had a couple approaches that didn't work. All clarified after looking at the solution approach.
  *

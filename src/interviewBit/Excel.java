@@ -19,7 +19,7 @@ Example:
     
     AB -> 28 
     
- * @author Mario
+ * @author mrincodi
  *
  */
 public class Excel {

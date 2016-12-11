@@ -21,7 +21,7 @@ Output :
 
 If there are multiple possible solutions, return the sequence which has the minimum start index.
 
- * @author Mario
+ * @author mrincodi
  *
  */
 public class MaxContinuousSeriesof1s {

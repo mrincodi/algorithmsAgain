@@ -24,7 +24,7 @@ Make sure the returned intervals are also sorted.
 
 HINT: Note that if max(a,c) > min(b,d), then the intervals do not overlap. Otherwise, they overlap.
 
- * @author Mario
+ * @author mrincodi
  *
  */
 public class Intervals {

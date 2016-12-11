@@ -18,7 +18,7 @@ import java.util.HashSet;
  * A complete solution for the "How to Crush Your Coding Interview" problem, in Java.
  * See https://goo.gl/lTzZKc.
  * Date: 2016-11-12
- * @author Mario R. Rincon (mrincodi), mrincodi@gmail.com
+ * @author mrincodi R. Rincon (mrincodi), mrincodi@gmail.com
  *
  */
 public class NearbyWordsFB {

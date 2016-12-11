@@ -23,7 +23,7 @@ Example :
 Input : "aaaabaaa"
 Output : "aaabaaa"
 
- * @author Mario
+ * @author mrincodi
  *
  */
 public class LongestPalindrome {

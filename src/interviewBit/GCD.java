@@ -36,7 +36,7 @@ gcd (m, n) = gcd(m-n, n)
               So gcd(m, n)  = gcd(m % n, n) 
 
 
- * @author Mario
+ * @author mrincodi
  *
  */
 public class GCD {

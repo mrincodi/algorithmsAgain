@@ -2,7 +2,7 @@ package hackerrank;
 
 /**
  * Dismiss
- * @author Mario
+ * @author mrincodi
  * 2016-11-26
  */
 public class Prob2 {
