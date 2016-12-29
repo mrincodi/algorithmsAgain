@@ -1,6 +1,7 @@
 package interviewBit;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * 
@@ -50,7 +51,13 @@ public class DiffkInterviewBit {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ArrayList<Integer> A = new ArrayList <Integer> (Arrays.asList(2,4,5) );
+		
+		int B = 1;
+		
+		int dp = new DiffkInterviewBit().diffPossible(A, B);
+		
+		System.out.println(dp);
 	}
 
 }
