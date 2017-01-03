@@ -1,11 +1,12 @@
 package interviewBit;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * 
  * 
-Given an array ‘A’ of sorted integers and another non negative integer k, find if there exists 2 indices i and j such that A[i] - A[j] = k, i != j.
+Given an array ï¿½Aï¿½ of sorted integers and another non negative integer k, find if there exists 2 indices i and j such that A[i] - A[j] = k, i != j.
 
  Example: Input : 
     A : [1 3 5] 
@@ -24,21 +25,39 @@ Try doing this in less than linear space complexity.
  */
 public class DiffkInterviewBit {
 
-	public int diffPossible(ArrayList<Integer> a, int val) {
+	public int diffPossible(ArrayList<Integer> A, int B) {
 
-		for ( int i = 0; i < a.size() - 1; i++ ){
-			inner:
-				for ( int j = i + 1; j < a.size(); j++) {
-					if ( a.get(j) - a.get(i) == val) return 1;
-					if ( a.get(j) - a.get(i) > val) break inner;
-				}
-		}
-
-		return 0;	    
+	    int start, end;
+	    int n = A.size();
+	    int diff;
+	    
+	    start = 0;
+	    end = 1;
+	    
+	    while (start <= end && end < n) {
+	        
+	        diff = A.get(end) - A.get(start);
+	        
+	        if (diff == B && start != end) {
+	            return 1;
+	        } else if (diff <= B) {
+	            end++;
+	        } else {
+	            start++;
+	        }
+	    }
+	    
+	    return 0;
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ArrayList<Integer> A = new ArrayList <Integer> (Arrays.asList(2,4,5) );
+		
+		int B = 1;
+		
+		int dp = new DiffkInterviewBit().diffPossible(A, B);
+		
+		System.out.println(dp);
 	}
 
 }
