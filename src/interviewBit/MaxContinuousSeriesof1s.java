@@ -22,55 +22,59 @@ Output :
 If there are multiple possible solutions, return the sequence which has the minimum start index.
 
  * @author mrincodi
+ * 2017-01-02
+ * Comment: Enhanced after a long time. Nice exercise. O(n).
  *
  */
 public class MaxContinuousSeriesof1s {
-	public ArrayList<Integer> maxone(ArrayList<Integer> a, int b) {
-		ArrayList<Integer> best = new  ArrayList<Integer> ();
+	public ArrayList<Integer> maxone(ArrayList<Integer> numbers, int numFlips) {
 
-		int i = 0;
-		while (i < a.size()){
-			//System.out.println ( "Entro. i vale " + i);
-			ArrayList<Integer> current = new  ArrayList<Integer> ();
-			int j = i;
-			boolean endIt=false;
-			int leftToFlip=b;
-			int newI = i;
-			while ( j < a.size() && !endIt){
-				//System.out.println ( "j vale " + j);
-				if (a.get(j)==1) current.add(j);
-				else {
-					if ( leftToFlip == 0 ){
-						endIt = true;
-					}
-					else {
-						if ( leftToFlip == b ){
-							//We move the pointer of i 
-							//to the next position after the first zero found,
-							newI=j+1;
-						}
-						//but in any case...
-						current.add(j);
-						leftToFlip--;
-					}
-				}
-				j++;
-			}
-			if ( j == a.size())  i = a.size(); // let's get out of here.
-			else if ( newI==i) i++; // b=0 and this was a 0.
-			else i=newI;
-			
-			if ( current.size () > best.size() )
-				best = current;
+		ArrayList<Integer> result = new ArrayList<Integer> ();
+		int start = -1;
+		int end = -1;
+		int size = 0;
+		
+		if ( numbers == null ) return result;
+		
+		//Save the position of the zero's.
+		ArrayList <Integer > zeroPos = new ArrayList <Integer > ();
+		zeroPos.add(-1);
+		
+		for (int i = 0; i < numbers.size(); i++){
+			if (numbers.get(i)==0) zeroPos.add(i);
 		}
+		zeroPos.add(numbers.size());
 
-		return best;
+		if ( zeroPos.size() - 2 <= numFlips ){
+			start=0;
+			end = numbers.size()-1;
+		}
+		else {
+			for ( int i = 1; i < zeroPos.size() - numFlips; i++){
+				int limInf = zeroPos.get(i-1) + 1;
+				int limSup = zeroPos.get(i + numFlips) - 1;
+				int thisSize = limSup - limInf;
+				if ( thisSize > size){
+					start = limInf;
+					end = limSup;
+					size = thisSize;
+				}
+			}
+		
+		}
+			
+		//Finally, return the positions.
+		for ( int i = start; i <= end; i++){
+			result.add(i);
+		}
+		
+		return result;
 	}
 
 	public static void main(String[] args) {
-		ArrayList <Integer>  al = new ArrayList <Integer> ( Arrays.asList(0,1,1,1,0,0,1,0,1,1,1,1,1,0,0,0,0,0));
+		ArrayList <Integer>  al = new ArrayList <Integer> ( Arrays.asList(0,0,1,1,0,1,1,0,0,1));
 		
-		ArrayList <Integer>  result = new MaxContinuousSeriesof1s ().maxone(al, 3);
+		ArrayList <Integer>  result = new MaxContinuousSeriesof1s ().maxone(al, 1);
 		
 		for ( int i = 0; i < result.size(); i++ )
 			System.out.println("--> "+ result.get(i));
