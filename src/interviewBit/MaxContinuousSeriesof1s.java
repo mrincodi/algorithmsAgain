@@ -23,7 +23,7 @@ If there are multiple possible solutions, return the sequence which has the mini
 
  * @author mrincodi
  * 2017-01-02
- * Comment: Enhanced after a long time. Nice exercise. O(n).
+ * Comment: Enhanced after a long time. Nice exercise. O(n). 
  *
  */
 public class MaxContinuousSeriesof1s {
