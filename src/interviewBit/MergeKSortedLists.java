@@ -22,7 +22,6 @@ will result in
 public class MergeKSortedLists {
 
 	public ListNode1 mergeKLists(ArrayList<ListNode1> a) {
-
 		if ( a.size () == 0 ) return null;	    
 		//Let's use a PriorityQueue.
 		PriorityQueue <Integer> pq = new PriorityQueue <Integer> ();
